@@ -1,0 +1,51 @@
+body {
+  background-color: #37d376;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.hobby {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: left;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.hobby img {
+  max-width: 40%;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}

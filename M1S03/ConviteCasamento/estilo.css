@@ -1,0 +1,65 @@
+/* Estilo  da página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: aqua;
+}
+/* Estilio do contêiner principal */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+/* Estilo do cabeçalho principal */
+h1 {
+  color: black;
+}
+/* Estilo para rótulos de formulário */
+label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+}
+/* Estilo para campos de entrada de texto */
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+/* Estilo dos botões */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  margin-top: 10px;
+  border: none;
+}
+/* Estilo do botão quando o cursor está sobre ele */
+button:hover {
+  background-color: blue;
+}
+/* Estilio para a área do convite, inicialmente oculta */
+#carta {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: left;
+  display: none;
+}
+/* Estilo dos parágrafos dentro da área do convite */
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 10px;
+}

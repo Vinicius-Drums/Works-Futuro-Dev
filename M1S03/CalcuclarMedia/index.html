@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="icon" href="Img/boletim.png" type="image/x-icon" />
+    <title>Calculadora de Média</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de Média</h1>
+
+      <!-- Container para as notas -->
+      <div class="input-container">
+        <p>Insira a nota da primeira avaliação:</p>
+        <label for="nota1">Nota:</label>
+        <input type="number" id="nota1" />
+      </div>
+
+      <div class="input-container">
+        <p>Insira a nota da segunda avaliação:</p>
+        <label for="nota2">Nota:</label>
+        <input type="number" id="nota2" />
+      </div>
+
+      <div class="input-container">
+        <p>Insira a nota da terceira avaliação:</p>
+        <label for="nota3">Nota:</label>
+        <input type="number" id="nota3" />
+      </div>
+
+      <!-- Botão para calcular -->
+      <button onclick="calcularMedia()">Calcular Média</button>
+
+      <!-- Exibir o resultado da média e status -->
+      <p id="media">Média da Nota.</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

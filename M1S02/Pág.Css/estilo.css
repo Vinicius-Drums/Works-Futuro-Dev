@@ -1,0 +1,13 @@
+body {
+  background-color: #37d376;
+}
+
+h1 {
+  font-family: Verdana, sans-serif;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}

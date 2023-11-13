@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="icon" href="Img/Food.png" type="image/x-icon" />
+    <title>Menu Online</title>
+  </head>
+  <body>
+    <h1>Lanchonete Online</h1>
+    <hr />
+
+    <table border="1">
+      <tr>
+        <th>Código</th>
+        <th>Produto</th>
+        <th>Valor</th>
+      </tr>
+      <tr>
+        <td>1123</td>
+        <td>Hambúrguer</td>
+        <td>R$ 12,00</td>
+      </tr>
+      <tr>
+        <td>3423</td>
+        <td>Sanduíche de pernil</td>
+        <td>R$ 9,00</td>
+      </tr>
+      <tr>
+        <td>4521</td>
+        <td>Bauru</td>
+        <td>R$ 15,00</td>
+      </tr>
+      <tr>
+        <td>5322</td>
+        <td>Sanduíche de mortadela</td>
+        <td>R$ 9,90</td>
+      </tr>
+    </table>
+
+    <br />
+    <label for="codigo">Código do Produto:</label>
+    <input type="text" id="codigo" />
+    <label for="quantidade">Quantidade:</label>
+    <input type="text" id="quantidade" />
+
+    <p id="resultado"></p>
+    <hr />
+    <button id="calcularBotao">Calcular</button>
+    <button id="novoPedidoBotao" style="display: none">
+      Fazer Outro Pedido
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>

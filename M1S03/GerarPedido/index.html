@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="Img/ferias2.png" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo.css" type="text/css" />
+    <title>Gerar Pedido De Férias</title>
+  </head>
+  <body>
+    <h1>Carta de Pedido de Férias</h1>
+
+    <label for="nome">Nome da pessoa:</label>
+    <input type="text" id="nome" placeholder="Insira o nome" />
+    <br />
+
+    <label for="dataInicio">Data de início das férias:</label>
+    <input type="text" id="dataInicio" placeholder="DD/MM/AAAA" />
+    <br />
+
+    <label for="dataTermino">Data de término das férias:</label>
+    <input type="text" id="dataTermino" placeholder="DD/MM/AAAA" />
+    <br />
+
+    <button id="gerarCarta">Gerar Carta</button>
+
+    <div id="carta"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

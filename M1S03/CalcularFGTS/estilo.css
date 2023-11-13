@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-color: aqua;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 10px;
+}

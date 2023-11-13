@@ -1,0 +1,52 @@
+/* Estilo do corpo da página */
+body {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+}
+
+/* Estilo da tabela */
+table {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Estilo para cabeçalhos (th) e células (td) da tabela */
+th,
+td {
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Estilo para rótulos */
+label {
+  display: block;
+  margin-top: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+/* Botão quando o cursor está sobre ele */
+button:hover {
+  background-color: blue;
+}
+
+/* Estilo para botões */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 20px; /* Adiciona espaço acima do botão */
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+}
+
+/* Estilo para a caixa de diálogo (p#resultado) */
+#resultado {
+  margin-bottom: 20px;
+  color: black; /* Cor do texto */
+  font-weight: bold;
+}

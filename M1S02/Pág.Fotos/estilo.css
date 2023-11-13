@@ -1,0 +1,38 @@
+body {
+  background-color: #37d376;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.foto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.foto {
+  margin: 20px;
+  flex: 1;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}

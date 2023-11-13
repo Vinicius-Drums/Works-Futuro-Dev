@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="icon" type="image/x-icon" href="Img/alianças.png" />
+    <title>Convite de Casamento</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Convite para Casamento</h1>
+
+      <label for="nomeConvidado">Nome da Pessoa Convidada:</label>
+      <input type="text" id="nomeConvidado" />
+
+      <label for="nomePrimeiraPessoa">Nome da 1ª Pessoa do Casal:</label>
+      <input type="text" id="nomePrimeiraPessoa" />
+
+      <label for="nomeSegundaPessoa">Nome da 2ª Pessoa do Casal:</label>
+      <input type="text" id="nomeSegundaPessoa" />
+
+      <label for="dataCasamento">Data do Casamento:</label>
+      <input type="text" id="dataCasamento" />
+
+      <label for="horaCasamento">Horario do Casamento:</label>
+      <input type="text" id="horaCasamento" />
+
+      <button id="gerarCarta">Gerar Convite</button>
+
+      <div id="carta">
+        <h2>Convite Gerado:</h2>
+        <p id="cartaTexto"></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

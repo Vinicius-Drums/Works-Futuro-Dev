@@ -1,0 +1,47 @@
+/* Estilo da página */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: aqua;
+  margin: 0;
+  padding: 30px;
+}
+/* Título */
+h1 {
+  color: black;
+}
+
+/* Rótulos e caixas de entrada */
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+/* Estilo para o botão */
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Resultado da média e status */
+p {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
